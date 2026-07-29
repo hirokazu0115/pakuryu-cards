@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>合同会社 鈴木</title>
+  <style>
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif;color:#172033;background:#f7f8fb;line-height:1.7}
+    a{text-decoration:none}
+    header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid #e8ebf2}
+    .nav{max-width:1180px;margin:auto;padding:18px 24px;display:flex;justify-content:space-between;align-items:center}
+    .brand{font-weight:800;font-size:22px;color:#102a52}
+    .links a{color:#24324a;margin-left:24px;font-weight:600}
+    .hero{background:linear-gradient(135deg,#0d2344 0%,#173b6d 65%,#214f88 100%);color:#fff;padding:110px 24px}
+    .hero-inner{max-width:1180px;margin:auto}
+    .eyebrow{color:#d7b56d;font-weight:700;letter-spacing:.08em}
+    h1{font-size:clamp(42px,7vw,78px);line-height:1.15;margin:12px 0 24px}
+    .hero p{font-size:clamp(17px,2vw,22px);max-width:760px;color:#e8eef8}
+    .cta{display:inline-block;margin-top:28px;background:#cda85e;color:#fff;padding:14px 24px;border-radius:10px;font-weight:700;box-shadow:0 10px 30px rgba(0,0,0,.18)}
+    section{padding:72px 24px}
+    .wrap{max-width:1180px;margin:auto}
+    h2{font-size:34px;color:#102a52;margin:0 0 28px;text-align:center}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px}
+    .card{background:#fff;border:1px solid #e7ebf1;border-radius:18px;padding:28px;box-shadow:0 12px 30px rgba(16,42,82,.08)}
+    .card h3{margin-top:0;color:#102a52}
+    .info-label{font-size:13px;color:#7d8797;margin-bottom:6px}
+    .info-value{font-weight:700;color:#1d2940}
+    .services{background:#eef3f9}
+    .contact{background:linear-gradient(135deg,#c69e52,#d7b870);color:#fff;border-radius:22px;padding:42px;text-align:center}
+    .contact h2{color:#fff;margin-bottom:12px}
+    .phone{font-size:30px;font-weight:800}
+    footer{background:#0d2344;color:#cfd8e6;text-align:center;padding:30px 24px}
+    @media(max-width:720px){
+      .links{display:none}
+      .hero{padding:80px 20px}
+      section{padding:56px 20px}
+      .contact{padding:32px 20px}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="brand">合同会社 鈴木</div>
+    <div class="links">
+      <a href="#company">会社概要</a>
+      <a href="#services">事業内容</a>
+      <a href="#contact">お問い合わせ</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">TRADING CARD BUSINESS</div>
+      <h1>カードの価値を、<br>信頼でつなぐ。</h1>
+      <p>ポケモンカード・ONE PIECE・遊戯王を中心に、PSA鑑定品の販売、海外発送、カード調達を行っています。</p>
+      <a class="cta" href="#contact">お問い合わせ</a>
+    </div>
+  </section>
+
+  <section id="company">
+    <div class="wrap">
+      <h2>会社概要</h2>
+      <div class="grid">
+        <div class="card"><div class="info-label">会社名</div><div class="info-value">合同会社 鈴木</div></div>
+        <div class="card"><div class="info-label">代表</div><div class="info-value">鈴木 博和</div></div>
+        <div class="card"><div class="info-label">所在地</div><div class="info-value">千葉県千葉市中央区春日1-22-13</div></div>
+        <div class="card"><div class="info-label">電話番号</div><div class="info-value">090-7846-4842</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="wrap">
+      <h2>事業内容</h2>
+      <div class="grid">
+        <div class="card"><h3>PSA鑑定品販売</h3><p>高品質なPSA鑑定済みトレーディングカードを取り扱っています。</p></div>
+        <div class="card"><h3>海外販売</h3><p>eBayを中心に、世界中のお客様へ丁寧に梱包・発送しています。</p></div>
+        <div class="card"><h3>カード調達</h3><p>ご希望カードの仕入れや、PSA作成に関するご相談にも対応します。</p></div>
+        <div class="card"><h3>各種サポート</h3><p>在庫確認や商品に関するご質問など、お気軽にお問い合わせください。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact">
+        <h2>お問い合わせ</h2>
+        <p>商品・在庫・PSA作成など、お気軽にご相談ください。</p>
+        <div class="phone">090-7846-4842</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>© 2026 合同会社 鈴木 All Rights Reserved.</footer>
+</body>
+</html>
