@@ -1,0 +1,15 @@
+
+*{box-sizing:border-box}body{margin:0;font-family:'Segoe UI',sans-serif;background:#f6f7fb;color:#222}
+header{background:#0f2345;color:#fff;padding:18px 8%}
+nav{display:flex;justify-content:space-between;align-items:center}
+nav a{color:#fff;text-decoration:none;margin-left:24px}
+.hero{background:linear-gradient(rgba(15,35,69,.82),rgba(15,35,69,.82)),url('https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1600&auto=format&fit=crop') center/cover;
+padding:90px 8%;color:#fff}
+.hero h1{font-size:54px;margin:0 0 20px}
+.hero p{font-size:22px;max-width:700px}
+.btn{display:inline-block;margin-top:25px;background:#caa35d;color:#fff;padding:14px 24px;border-radius:8px;text-decoration:none}
+section{padding:60px 8%}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px}
+.card{background:#fff;border-radius:14px;padding:24px;box-shadow:0 8px 20px rgba(0,0,0,.08)}
+.info{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+footer{background:#0f2345;color:#fff;text-align:center;padding:30px}
